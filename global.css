@@ -255,3 +255,19 @@ footer a {
         grid-template-columns: 1fr;
     }
 }
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--accent-color);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    padding: 0.5rem;
+    border-bottom: 3px solid var(--accent-color);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
