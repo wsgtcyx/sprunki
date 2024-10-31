@@ -277,3 +277,42 @@ h1 {
         border-radius: 5px; /* 添加圆角 */
     }
 }
+
+.recommended-games {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.game-recommendations {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.game-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+    max-width: 300px;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.game-card h4 {
+    margin: 0 0 0.5rem 0;
+    color: #fff;
+}
+
+.game-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
